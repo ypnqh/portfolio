@@ -1,1 +1,0 @@
-# Portfolio Responsive Complete
