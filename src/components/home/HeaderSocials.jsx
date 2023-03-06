@@ -1,22 +1,23 @@
 import React from 'react'
+import { GithubIcon, InstagramIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from '../icons/Icons'
 
 const HeaderSocials = () => {
   return (
     <div className='home__socials'>
       <a
-        href='https://www.instagram.com/'
+        href='https://www.instagram.com/ypnqh'
         className='home__social-link'
         target='_blank' rel='noreferrer'
       >
-        <i class='fa-brands fa-instagram' />
+        <InstagramIcon />
       </a>
 
       <a
-        href='https://www.twitter.com/'
+        href='https://www.twitter.com/ypnqh_'
         className='home__social-link'
         target='_blank' rel='noreferrer'
       >
-        <i class='fa-brands fa-twitter' />
+        <TwitterIcon />
       </a>
 
       <a
@@ -24,15 +25,7 @@ const HeaderSocials = () => {
         className='home__social-link'
         target='_blank' rel='noreferrer'
       >
-        <i class='fa-brands fa-behance' />
-      </a>
-
-      <a
-        href='https://www.dribble.com/'
-        className='home__social-link'
-        target='_blank' rel='noreferrer'
-      >
-        <i class='fa-brands fa-dribbble' />
+        <LinkedInIcon />
       </a>
 
       <a
@@ -40,7 +33,15 @@ const HeaderSocials = () => {
         className='home__social-link'
         target='_blank' rel='noreferrer'
       >
-        <i class='fa-brands fa-pinterest' />
+        <PinterestIcon />
+      </a>
+
+      <a
+        href='https://www.github.com/ypnqh'
+        className='home__social-link'
+        target='_blank' rel='noreferrer'
+      >
+        <GithubIcon />
       </a>
     </div>
   )

@@ -1,17 +1,17 @@
 import React from 'react'
 import './resume.css'
-import Data from './Data'
+import data from './data.js'
 import Card from './Card'
 
-const Resume = () => {
+export function Resume () {
   return (
     <section className='resume container section' id='resume'>
-      <h2 className='section__title'>Experience</h2>
+      <h2 className='section__title'>Experiencia</h2>
 
       <div className='resume__container grid'>
         <div className='timeline grid'>
-          {Data.map((val, id) => {
-            if (val.category === 'education') {
+          {data.map((val, id) => {
+            if (val.category === 'experience') {
               return (
                 <Card
                   key={id}
@@ -26,8 +26,8 @@ const Resume = () => {
         </div>
 
         <div className='timeline grid'>
-          {Data.map((val, index) => {
-            if (val.category === 'experience') {
+          {data.map((val, index) => {
+            if (val.category === 'education') {
               return (
                 <Card
                   key={index}
@@ -44,5 +44,3 @@ const Resume = () => {
     </section>
   )
 }
-
-export default Resume

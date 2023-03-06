@@ -8,7 +8,7 @@ const AboutBox = () => {
 
         <div>
           <h3 className='about__title'>198</h3>
-          <span className='about__subtitle'>Project completed</span>
+          <span className='about__subtitle'>Proyectos completados</span>
         </div>
       </div>
 

@@ -1,19 +1,19 @@
-const Data = [
+const data = [
   {
     id: 1,
     category: 'education',
     icon: 'icon-graduation',
-    year: '2019 - present',
-    title: 'Academic Degree',
-    desc: 'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.'
+    year: '2021 - present',
+    title: 'SENATI',
+    desc: 'Actualmente me encuentro cursando la carrera de Ingeniería de Software e Inteligencia Artificial'
   },
   {
     id: 2,
     category: 'education',
     icon: 'icon-graduation',
-    year: '2013 - 2017',
-    title: "Bachelor's Degree",
-    desc: 'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.'
+    year: '2015 - 2019',
+    title: 'Ollantay',
+    desc: 'Culminé mis estudios en el colegio Ollantay en Ollantaytambo, Urubamba - Cusco'
   },
   {
     id: 3,
@@ -27,8 +27,8 @@ const Data = [
     id: 4,
     category: 'experience',
     icon: 'icon-briefcase',
-    year: '2019 - present',
-    title: 'Web Designer',
+    year: '2022 - present',
+    title: 'Back-End Developer',
     desc: 'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.'
   },
   {
@@ -44,9 +44,9 @@ const Data = [
     category: 'experience',
     icon: 'icon-briefcase',
     year: '2009 - 2013',
-    title: 'Back-End Developer',
+    title: 'Web Designer',
     desc: 'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.'
   }
 ]
 
-export default Data
+export default data

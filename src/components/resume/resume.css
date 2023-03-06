@@ -3,6 +3,11 @@
     column-gap: 1.875rem;
 }
 
+.section-title {
+    display: flex;
+    justify-content: space-between;
+}
+
 .timeline {
     background-color: var(--container-color);
     padding: 1.875rem;
