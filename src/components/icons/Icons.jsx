@@ -99,3 +99,146 @@ export function GithubIcon () {
     </svg>
   )
 }
+
+export function HomeIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-home'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M5 12H3l9-9 9 9h-2M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7' />
+      <path d='M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6' />
+    </svg>
+  )
+}
+
+export function UserIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-user'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M8 7a4 4 0 108 0 4 4 0 10-8 0M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2' />
+    </svg>
+  )
+}
+
+export function BriefcaseIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-briefcase'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M3 9a2 2 0 012-2h14a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2zM8 7V5a2 2 0 012-2h4a2 2 0 012 2v2M12 12v.01M3 13a20 20 0 0018 0' />
+    </svg>
+  )
+}
+
+export function GraduationIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-school'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M22 9L12 5 2 9l10 4 10-4v6' />
+      <path d='M6 10.6V16a6 3 0 0012 0v-5.4' />
+    </svg>
+  )
+}
+
+export function LayersIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-layers-subtract'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M8 6a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2h-8a2 2 0 01-2-2z' />
+      <path d='M16 16v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-8a2 2 0 012-2h2' />
+    </svg>
+  )
+}
+
+export function NotesIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-notebook'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M6 4h11a2 2 0 012 2v12a2 2 0 01-2 2H6a1 1 0 01-1-1V5a1 1 0 011-1m3 0v18M13 8h2M13 12h2' />
+    </svg>
+  )
+}
+
+export function BubbleIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className='icon icon-tabler icon-tabler-message-circle-2'
+      viewBox='0 0 24 24'
+    >
+      <path stroke='none' d='M0 0h24v24H0z' />
+      <path d='M3 20l1.3-3.9A9 8 0 117.7 19L3 20' />
+    </svg>
+  )
+}

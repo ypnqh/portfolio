@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './sidebar.css'
 import Logo from '../../assets/logo.svg'
+import { BriefcaseIcon, BubbleIcon, GraduationIcon, HomeIcon, LayersIcon, NotesIcon, UserIcon } from '../icons/Icons'
 
 const Sidebar = () => {
   const [toggle, showMenu] = useState(false)
@@ -16,43 +17,43 @@ const Sidebar = () => {
             <ul className='nav__list'>
               <li className='nav__item'>
                 <a href='#home' className='nav__link'>
-                  <i className='icon-home' />
+                  <HomeIcon />
                 </a>
               </li>
 
               <li className='nav__item'>
                 <a href='#about' className='nav__link'>
-                  <i className='icon-user-following' />
+                  <UserIcon />
                 </a>
               </li>
 
               <li className='nav__item'>
                 <a href='#services' className='nav__link'>
-                  <i className='icon-briefcase' />
+                  <BriefcaseIcon />
                 </a>
               </li>
 
               <li className='nav__item'>
                 <a href='#resume' className='nav__link'>
-                  <i className='icon-graduation' />
+                  <GraduationIcon />
                 </a>
               </li>
 
               <li className='nav__item'>
                 <a href='#work' className='nav__link'>
-                  <i className='icon-layers' />
+                  <LayersIcon />
                 </a>
               </li>
 
               <li className='nav__item'>
                 <a href='#blog' className='nav__link'>
-                  <i className='icon-note' />
+                  <NotesIcon />
                 </a>
               </li>
 
               <li className='nav__item'>
                 <a href='#contact' className='nav__link'>
-                  <i className='icon-bubble' />
+                  <BubbleIcon />
                 </a>
               </li>
             </ul>
